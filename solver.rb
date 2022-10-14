@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# This solver class runs three methods for TDD
 class Solver
   def reverse(word)
     word.reverse
@@ -29,5 +30,4 @@ class Solver
       num.to_s
     end
   end
-
 end
